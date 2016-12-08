@@ -13,6 +13,7 @@ gem 'rack-cors'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'virtus'
+gem 'pd_x12'
 
 group :development, :test do
   gem 'byebug', platform: :mri

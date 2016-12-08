@@ -13,7 +13,7 @@ require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
 
-module MyReactRailsApp
+module ReactRailsEdiApp
   class Application < Rails::Application
     config.autoload_paths += Dir["#{config.root}/app/graphql/**/"]
     config.autoload_paths += Dir["#{config.root}/app/presenters/**/"]

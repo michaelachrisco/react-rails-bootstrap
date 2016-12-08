@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: my-react-rails-app_development
+  database: react-rails-edi_app_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: my-react-rails-app_test
+  database: react-rails-edi-app_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: my-react-rails-app_production
+  database: react-rails-edi-app_production
   username: event-tamer
   password: <%= ENV['MY_REACT_RAILS_APP_DATABASE_PASSWORD'] %>
